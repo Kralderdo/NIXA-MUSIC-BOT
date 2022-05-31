@@ -12,12 +12,12 @@ from telethon.tl.custom import button
 from time import time
 from datetime import datetime
 hl = '/'
-deadlyversion = 'Spambot0.10'
+deadlyversion = 'sᴘᴀᴍʙᴏᴛ0.10'
 
 NIXA_PIC = "https://te.legra.ph/file/458d42a851b8ec54f865d.jpg"
   
 
-DEADLY = "✯ ᴍᴜsɪᴄ+ʀᴀɪᴅ sᴘᴀᴍ ʙᴏᴛ ✯\n\n"
+DEADLY = " ᴍᴜsɪᴄ+ʀᴀɪᴅ sᴘᴀᴍ ʙᴏᴛ\n\n"
 DEADLY += f"═══════════════════\n"
 DEADLY += f"• **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.10.1`\n"
 DEADLY += f"• **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
@@ -32,8 +32,8 @@ async def alive(event):
                                   caption=DEADLY,
                                   buttons=[
         [
-        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/DEMON_CREATORS"),
-        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/World_FriendShip_Zone")
+        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/TechQuard"),
+        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/TechQuardSupport")
         ],
         [
         Button.url("• ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ •", "https://youtube.com/channel/UCtI7hbY-BD7wvuIzoSU0cEw")
